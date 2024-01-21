@@ -25,8 +25,6 @@ Provide step-by-step instructions on how to install the project. -->
 
 ## Uso
 
-
-
 ## Configuración
 
 De momento la configuración del proyecto consta en:
