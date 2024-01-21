@@ -6,6 +6,7 @@
 Este proyecto está enfocado crear el aspecto visual, la interfaz de usario y experiencia del servicio Residuos Nomás. Gran parte de este proyecto está orientado en la reutilización de residuos y unificar de esta forma en una plataforma la compra y venta de residuos de construcción e industriales.
 
 ## Tabla de contenidos
+
 - [Residuos Nomás Front](#residuos-nomás-front)
   - [Tabla de contenidos](#tabla-de-contenidos)
   - [Inicio](#inicio)
@@ -16,6 +17,7 @@ Este proyecto está enfocado crear el aspecto visual, la interfaz de usario y ex
 ## Inicio
 
 ### Prerequisitos
+
 De momento hay prerequisitos para comenzar este proyecto. Puedes clonar el repositorio y ejecutar los documentos (index.html) de manera local o en su defecto utilizando una extensión como [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) en [VS Code](https://code.visualstudio.com/Download)
 
 <!-- ### Instalación
@@ -28,6 +30,7 @@ Provide step-by-step instructions on how to install the project. -->
 ## Configuración
 
 De momento la configuración del proyecto consta en:
+
 - Clonar el repositorio
 - Crear una rama con el nombre de usario que colaborará
 
