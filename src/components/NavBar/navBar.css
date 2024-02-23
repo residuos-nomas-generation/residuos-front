@@ -1,0 +1,130 @@
+
+.navbar {
+    background-color: #347571;
+    color: #fff;
+    font-family: 'Open Sauce One', sans-serif;
+    font-size: .9rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0;
+    height: 5.5rem;
+
+}
+
+ul {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+li {
+    list-style-type: none;
+    transition: .3s;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+li:hover {
+    color: #d1f4ad;
+    transform: scale(1.05) translate(-4%, -4%);
+}
+
+.btn {
+    height: 3rem;
+    margin-right: 1rem;
+    color: #fff;
+    font-size: .9rem;
+    font-weight: bold;
+    border-color: #fff;
+    border-width: .2rem;
+    border-radius: 1.5rem;
+    transition: .2s;
+}
+
+.btn:hover {
+    color: #d1f4ad;
+    transform: scale(1.02) translate(-1%, -1%);
+}
+.btn-custom {
+    white-space: pre-wrap;
+}
+
+.nav-toggle {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    cursor: pointer;
+    display: none;
+  }
+
+.nav-logo {
+    font-size: .9rem;
+    z-index: 1;
+}
+
+.nav-logo p {
+    margin-top: 1rem;
+}
+
+.nav-logo-img {
+    width: 5rem;
+}
+
+.menu-icon {
+    font-size: 40px;
+    display: none;
+}
+
+
+
+@media (max-width: 1050px) {
+    .nav-toggle {
+        display: block;
+      }
+    .btn {
+        /* position: relative;
+        right: 60px;
+        top: 20px; */
+    }
+    li {
+        margin-top: 1rem ;
+        margin-bottom: 1rem ;
+    }
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        background-color: #40958f;
+        position: fixed;
+        top: 88px;
+        width: 100%;
+        /* height: calc(27% - 92px); */
+        overflow-y: auto;
+        right: -100%;
+        transition: right 0.4s ease;
+
+    }
+    .nav-menu-visible{
+        right: 0;
+
+    }
+    .nav-menu-hidden {
+        display: none;
+      }
+
+
+
+    
+
+}
+
+/* h1{
+    background-color:antiquewhite;
+    height: 100rem;
+} */
