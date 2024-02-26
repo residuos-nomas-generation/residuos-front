@@ -40,7 +40,7 @@
 
 
 
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import "./navBar.css";
 import logo from '../../assets/logo.png';
 
@@ -53,9 +53,9 @@ const NavBar = () => {
         setIsMenuVisible(false);
       }
     };
-  
+
     window.addEventListener('scroll', handleScroll);
-  
+
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
