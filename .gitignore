@@ -13,7 +13,14 @@ src/styles
 dist
 dist-ssr
 *.local
+<<<<<<< HEAD
 notes.md
+=======
+<<<<<<< HEAD
+notes.md
+=======
+>>>>>>> e08fcb4bb5a8940f1e1bd1b43f597ccc72274b55
+>>>>>>> main
 
 # Editor directories and files
 .vscode/*
