@@ -1,4 +1,7 @@
-
+.container-navbar{
+    position: sticky;
+    z-index: 9;
+}
 .navbar {
     background-color: #347571;
     color: #fff;
@@ -8,7 +11,6 @@
     text-transform: uppercase;
     padding: 0;
     height: 5.5rem;
-
 }
 
 ul {
@@ -44,7 +46,6 @@ a:hover {
     border-radius: 1.5rem;
     transition: .2s;
 }
-
 .btn:hover {
     color: #d1f4ad;
 }
@@ -103,14 +104,15 @@ a:hover {
         top: 88px;
         width: 100%;
         overflow-y: auto;
-        right: -100%;
-        transition: right 0.4s ease;
+        top: -100%;
+        transition: top 0.4s ease;
         padding: 0;
+        z-index: -1;
 
 
     }
     .nav-menu-visible{
-        right: 0%;
+        top: 88px;
 
     }
     .nav-menu-hidden {
