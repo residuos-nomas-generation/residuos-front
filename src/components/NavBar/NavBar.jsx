@@ -11,9 +11,9 @@ const NavBar = () => {
         setIsMenuVisible(false);
       }
     };
-  
+
     window.addEventListener('scroll', handleScroll);
-  
+
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
@@ -24,8 +24,8 @@ const NavBar = () => {
   };
 
   return (
-    <div className='na'>
-      <div className="navbar align-content-center casa">
+    <div className="container-navbar">
+      <div className="navbar align-content-center ">
         <div className="nav-logo d-flex align-items-center gap-2 m-3">
           <img src={logo} className="nav-logo-img" alt="Logo" />
           <p>R e s i d u o s <br />N o M á s</p>
@@ -40,7 +40,6 @@ const NavBar = () => {
           <i className="uil uil-bars" />
         </div>
       </div>
-      <h1>hola</h1>
     </div>
   );
 }
@@ -48,3 +47,26 @@ const NavBar = () => {
 export default NavBar;
 
 
+// const NavBar = () => {
+
+//   return (
+//     <>
+//       <div className="collapse" id="navbarToggleExternalContent">
+//         <div className="bg-dark p-4">
+//           <h5 className="text-white h4">Collapsed content</h5>
+//           <span className="text-muted">Toggleable via the navbar brand.</span>
+//         </div>
+//       </div>
+//       <nav className="navbar navbar-dark bg-dark">
+//         <div className="container-fluid">
+//           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+//             <span className="navbar-toggler-icon"></span>
+//           </button>
+//         </div>
+//       </nav>
+//     </>
+//   )
+
+// }
+
+// export default NavBar
