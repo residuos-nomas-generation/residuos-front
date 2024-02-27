@@ -1,8 +1,14 @@
 import NavBar from "./components/NavBar/NavBar";
+import Banner from "./components/Banner/Banner";
 
 const App = () =>{
   return(
-    <NavBar></NavBar>
+    <>
+      <NavBar></NavBar> 
+      <Banner></Banner>           
+    </>
+    
+
   );
 }
 

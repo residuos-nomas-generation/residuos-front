@@ -1,0 +1,135 @@
+.banner-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 60vh;
+    position: relative;
+    background: #ECF8E5;
+    height: 55vh;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+    font-family: 'Open Sauce One', sans-serif;
+    z-index: 2;
+  } 
+
+  .banner-info{
+    width: 80%;
+    margin: auto ;
+    margin-left: 15%;
+  }
+  .banner-info-title{
+    color: #347571;
+    font-size: xx-large;
+  }
+
+  .btn-banner{
+   background: #5EC57E;
+   border-radius: 15px;
+   border: none;
+   width: 10rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: bold;
+   font-size: .9rem;
+   margin-right: 10px;
+   padding: 5px;
+  }
+  .btn-banner:hover{
+    color: white;
+    transform: scale(1.05);
+  }
+
+  .banner-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner-img img {
+    max-width: 90%;
+    max-height: 100%;
+    margin-right: 3.5rem;
+  }
+
+  h2{
+    color: #5EC57E;
+    font-family: 'Open Sauce One', sans-serif;
+    font-weight: lighter;
+  }
+  h4{
+    color: #5EC57E;
+    font-family: 'Open Sauce One', sans-serif;
+  }
+
+
+.somos-container {
+  display: flex;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.somos-container img {
+  width: 50%;
+}
+
+.contenido {
+  width: 50%;
+  padding: 0 40px; 
+  margin-right: 20px;
+}
+
+.contenido h2 {
+  text-align: center; /* Centra el texto horizontalmente */
+}
+
+.somos-descripcion {
+  padding:  20px;
+  text-align: justify;
+}
+
+  .somos-descripcion{
+    color: #033633;    
+  }
+
+  .funciona-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .funciona-container > h2 {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-bottom: 20px; /* Añade espacio debajo del título */
+  }
+  
+  .funciona-info1,
+  .funciona-info2,
+  .funciona-info3,
+  .funciona-info4 {
+    width: 50%;
+    box-sizing: border-box; 
+    padding: 40px; 
+    text-align: center;
+  }
+/*   
+  .funciona-info1 img,
+  .funciona-info2 img,
+  .funciona-info3 img,
+  .funciona-info4 img {
+    width: 100%; 
+    height: auto; 
+  } */
+
+  .funciona-descripcion{
+    color: #033633; 
+
+  }
+.funciona-info-numero{
+   width: 50px;
+   height: 50px;
+   color:   #5EC57E;
+   border: 1px solid #5EC57E;
+   border-radius: 25px;
+   text-align: center;
+   line-height: 50px;
+   display: inline-block;
+}
