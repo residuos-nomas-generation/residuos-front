@@ -2,3 +2,7 @@
     color: #eeeeee;
     background-color: #202020;
 } */
+
+.modal-login__tab{
+    display: flex;
+}
