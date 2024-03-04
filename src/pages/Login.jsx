@@ -1,7 +1,7 @@
 import { useState } from "react";
-import "../components/login.css";
+import "../pages/styles/login.css";
 import logo2 from '../assets/logo2.png';
-
+    
 
 const Login = () => {
 
@@ -19,7 +19,7 @@ const Login = () => {
         <>
             <div class="container-principal">
                 <div className="container-head">
-                    <img src={logo2} />
+                    <img className="img-logo" src={logo2} />
                     <h2 className="conteiner-title">R e s i d u o s   N o   M a s</h2>
 
                 </div>

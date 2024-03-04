@@ -1,0 +1,47 @@
+.container-about-us{
+    width: 100%;
+    padding-top: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    text-align: justify;
+}
+
+.about-title{
+    width: 350px;
+    margin: auto;
+    color: #5EC57E;
+    font-weight: 400;
+    background-color: #ecf8e5;
+    text-align: center;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.about-subtitle{
+    font-family: "Source Sans 3", sans-serif;
+    font-size:medium;
+    color: #347571;
+    font-weight:900;
+    margin-top: 2rem;
+}
+.about-text{
+    /* font-family: "Source Sans 3", sans-serif; */
+    font-size:medium;
+    font-weight:lighter;
+    color: #347571;
+    margin: 0;
+}
+.container-separation{
+    display: flex;
+    justify-content: center;
+}
+
+.img-about{
+    width: 350px;
+    padding: 1%;
+    margin-left: 6%;
+
+}
+.container-text{
+    margin-top: 2rem;width: 50%;
+}
