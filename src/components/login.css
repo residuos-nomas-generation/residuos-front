@@ -11,29 +11,47 @@ label, p{
     background-color: #ffffff;
     width: 100%;
     height: 100vh;  
+    /* background-color: antiquewhite; */
+}
+.container-head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+img{
+    width: 100px;
 }
 .conteiner-title{
     color: #347571;
     text-align: center;
-    padding-top: 4rem;
+    font-size:x-large;
     font-family: 'Open Sauce One', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
+    margin-bottom: 0;
+    margin-left: 10px;
 
 }
 .form-box{
     background-color: white;
     width: 50%;
-    height: 50%;
-    margin: 6% auto;
+    /* height: 50%; */
+    margin: 1.5% auto;
+    padding: 15px;
 }
 .button-box{
     display: flex;
     justify-content: center;
     padding-top: 1rem;
+    /* top: 0px;
+    width: 350px;
+    margin: 35px auto;
+    position: relative; */
 }
 .button-action{
-    color: #347571;
+    color: #CACBCC;
     width: 150px;
     margin-left: 5px;
     margin-right: 5px;
@@ -43,19 +61,40 @@ label, p{
     border-bottom: 3px solid #CACBCC;
 }
 
+.button-action-active{
+    color: #347571;
+    font-weight:600;
+    width: 150px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px 35px;
+    background: none;
+    border: 0;
+    border-bottom: 3px solid #347571;
+}
+
 .input-box{
+    /* top: 350px; */
+    left: 25%;
+    position: absolute;
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 3rem;
 }
 
+.inputs-login{
+    padding: 5px;
+    border: 1px solid #347571; 
+}
+
 .input-box-email,
 .input-box-password{
     display: flex;
     flex-direction: column;
-    width: 60%;
-    border-bottom: 3px solid #CACBCC;
+     width: 500px; /* 60% */
+    /* border-bottom: 3px solid #CACBCC; */
     margin-bottom: 1rem;
 }
 .input-item{
@@ -64,13 +103,22 @@ label, p{
     border: 0;
 }
 .login-box{
-    display: flex;
-    justify-content: center;
+    width: 80%;
+    /* display: flex;
+    justify-content: center; */
+    margin-top: 2rem;
+}
+.register-box{
+    width: 100%;
+    /* display: flex; */
+    /* justify-content: center; */
     margin-top: 2rem;
 }
 .login-box-space{
+    /* width: 80%; */
+    margin: auto;
     display: flex;
-    width: 60%;
+    /* width: 310px; */
     justify-content: space-between;
     align-items: flex-start
 }
@@ -79,7 +127,7 @@ label, p{
     width: 120px;
     height: 40px;
     border: none;
-    border-radius: 10px;
+    border-radius: 1.5rem;
     color: white;
     font-weight:400;
     font-family: 'Open Sauce One', sans-serif;
@@ -87,4 +135,32 @@ label, p{
 }
 .conteiner-title {
     white-space: pre-wrap;
+}
+
+#login{
+
+}
+#register{
+/* left: 100%; */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+
+.inputs-register{
+    width: 48%;
+    /* margin-left: 1%;
+    margin-right: 1%; */
+    padding: 5px;
+    border: 1px solid #347571;
+}
+
+
+.form-visible{
+visibility: visible;
+}
+.form-hidden {
+visibility: hidden;
 }
