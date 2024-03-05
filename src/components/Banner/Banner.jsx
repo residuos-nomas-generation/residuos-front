@@ -1,5 +1,6 @@
 import "../Banner/banner.css";
 import compu from '../../assets/compu.png';
+import { Link, NavLink } from 'react-router-dom';
 
 const Banner = () => {
   return (
@@ -8,8 +9,8 @@ const Banner = () => {
         <div className="banner-info">
           <p className="banner-info-title">Revive los residuos de manera sostenible junto a nosotros <br /> ¡Transformemos desperdicios en vida!</p>
           <div className="d-flex">
-            <a href="#" className="btn-banner" >COMPRAR</a>
             <a href="#" className="btn-banner">VENDER</a>
+            <a href="#" className="btn-banner">COMPRAR</a>
           </div>
         </div>
         <div className="banner-img">

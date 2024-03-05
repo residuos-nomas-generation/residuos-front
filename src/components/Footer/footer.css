@@ -1,0 +1,37 @@
+.container-footer{
+    background-color: #ECF8E5;
+    height: 30vh;
+    position: relative;
+    border-top-left-radius: 50% 20%;
+    border-top-right-radius: 50% 20%;
+    font-family: 'Open Sauce One', sans-serif;
+}
+.footer-all-data{
+    display: flex;
+    justify-content: space-between;
+}
+.container-footer-data{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 1rem;
+    padding-top: 3rem;
+}
+.footer-title{
+    margin-bottom: 2rem;
+    color:  #5EC57E;
+}
+.footer-data{
+    width: 190px ;
+}
+
+.footer-data-subtitle{
+    color: #347571;
+    font-family: var(--bs-body-font-family);
+    font-weight: 400;
+}
+
+.footer-data-description{
+    color: #5EC57E;
+    font-size: medium;
+}
