@@ -1,4 +1,5 @@
 import NavBar from "./components/NavBar/NavBar";
+import Footer from "./components/Footer/Footer";
 import { Route, Routes } from "react-router-dom";
 import Landing from "./pages/Landing";
 import Login from "./pages/Login";
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="/info" element={<InfoContacto />} />
         </Routes>
       </main>
+      <Footer></Footer>
     </>
   )
 }

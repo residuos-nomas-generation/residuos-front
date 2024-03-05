@@ -8,6 +8,7 @@ import funciona3 from '../assets/funciona3.png';
 import funciona4 from '../assets/funciona4.png';
 import container3 from '../assets/container3.png';
 import container3icon from '../assets/container3-icon.png';
+import { Link, NavLink } from 'react-router-dom';
 
 
 const Banner = () => {
@@ -17,8 +18,8 @@ const Banner = () => {
                 <div className="banner-info">
                     <p className="banner-info-title">Revive los residuos de manera sostenible junto a nosotros <br /> ¡Transformemos desperdicios en vida!</p>
                     <div className="d-flex">
-                        <a href="#" className="btn-banner" >COMPRAR</a>
-                        <a href="#" className="btn-banner">VENDER</a>
+                        <NavLink to="/tienda"><a className="btn-banner" >COMPRAR</a></NavLink>
+                        <NavLink to="/tienda"><a className="btn-banner" >VENDER</a></NavLink>
                     </div>
                 </div>
                 <div className="banner-img">

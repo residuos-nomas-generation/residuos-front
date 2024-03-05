@@ -1,0 +1,45 @@
+.contact-form{
+
+    width: 70%;
+    margin: auto;
+    color: #347571;
+    margin-top: 2rem;
+}
+.container-contact-title{
+    text-align: center;
+    font-family: var(--bs-body-font-family);
+    font-weight: 200;
+    font-size: larger;
+}
+.container-contact-inputs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contact-inputs{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+.half-inputs{
+    width: 48%;
+}
+.all-inputs{
+    width: 100%;
+}
+.contact-input{
+    background-color: #34757157;
+    border-color: #d1d1d152;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.button-contact{
+  margin-top: 1rem;
+}
+
+.contact-input-title{
+    font-family: var(--bs-body-font-family);
+    font-weight: 500;
+    font-size:small;
+}
