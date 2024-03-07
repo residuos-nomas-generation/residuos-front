@@ -1,0 +1,122 @@
+
+.user-perfil-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.img-perfil-user-container{
+    /* background-color: #ECF8E5; */
+    width: 30%;
+    border-radius: 6rem;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5%;
+
+}
+.user-info-perfil-container{
+    width: 40%;
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.user-info-perfil{
+    width: 450px;
+    border-radius: 10px;
+    border-color: #347571;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 2px 2px 2px rgba(50, 61, 52, 0.86);
+    padding: 2rem;
+}
+.img-perfil-user{
+    width: 200px ;
+}
+.datos-info-perfil{
+    color: #347571;
+    font-size: medium;
+    font-family: 'Open Sauce One', sans-serif;
+}
+.publication-perfil-section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    margin-top: 30px;
+}
+.galeria-publicaciones-perfil{
+    width: 50%;
+}
+.publicacion-perfil-container{
+    display: flex;
+    background-color: #ECF8E5;
+    padding: 1rem;
+    margin: 1rem;
+    border: 2px;
+    border-color: C3D5C4;
+    border-radius: 15px;
+}
+.img-perfil-container{
+    width: 40%;
+}
+.img-perfil-publicacion{
+    width: 200px;
+}
+.text-perfil-container{
+    width: 50%;
+    color: #347571;
+    font-size: small;
+    font-family: 'Open Sauce One', sans-serif;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-text-perfil{
+    font-family: var(--bs-body-font-family);
+    font-size: medium;
+}
+
+.icon-perfil-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 10%;
+}
+.icon-perfil{
+    font-size: larger;
+    color: #347571;
+}
+
+.galeria-perfil-title{
+    text-align: center;
+    font-size: larger;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.add-publicacion-perfil-container{
+    width: 100%;
+}
+
+.add-button-perfil-container{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    margin: auto;
+}
+.add-button-perfil{
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 1.5rem;
+    color: white;
+    font-weight:600;
+    font-family: 'Open Sauce One', sans-serif;
+    background: linear-gradient(to right, #347571 0%, #7ed957 100%);
+}
