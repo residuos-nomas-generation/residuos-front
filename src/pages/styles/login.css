@@ -163,3 +163,7 @@ visibility: visible;
 .form-hidden {
 visibility: hidden;
 }
+
+.oculto{
+    color: #ffffff;
+}

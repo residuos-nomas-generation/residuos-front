@@ -7,6 +7,7 @@ import NotFound from "./pages/NotFound";
 import Publicaciones from "./pages/Publicaciones";
 import AcercaDe from "./pages/AcercaDe";
 import InfoContacto from "./pages/InfoContacto";
+import Perfil from "./pages/Perfil";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="/tienda" element={<Publicaciones />} />
           <Route path="/nosotros" element={<AcercaDe />} />
           <Route path="/info" element={<InfoContacto />} />
+          <Route path="/user" element={<Perfil />} />
         </Routes>
       </main>
       <Footer></Footer>

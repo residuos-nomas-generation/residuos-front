@@ -2,6 +2,7 @@ import { useState } from "react";
 import "../pages/styles/login.css";
 import logo2 from '../assets/logo2.png';
 import axios  from 'axios';
+import { Link, NavLink } from 'react-router-dom';
     
 const Login = () => {
 
@@ -16,7 +17,7 @@ const Login = () => {
         setShowLogin(false);
     };
 
-    // Lógica Registro
+    // ---- Lógica Registro ----
     const [nombre, setNombre] = useState("");
     const [apellido, setApellido] = useState("");
     const [email, setEmail] = useState("");
@@ -64,6 +65,12 @@ const Login = () => {
                             <div className="login-box-space">
                                 <p>¿Olvidaste tu contraseña?</p>
                                 <button className="button-login" type="submint">Acceder</button>
+                            </div>
+                        </div>
+                        <div className="login-box">
+                            <div className="login-box-space">
+                                <p className="oculto">¿Olvidaste tu contraseña?</p>
+                                <button className="button-login" ><NavLink to="/user">User Demo</NavLink></button>
                             </div>
                         </div>
                     </form>
