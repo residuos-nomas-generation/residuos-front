@@ -8,6 +8,7 @@ import Publicaciones from "./pages/Publicaciones";
 import AcercaDe from "./pages/AcercaDe";
 import InfoContacto from "./pages/InfoContacto";
 import Perfil from "./pages/Perfil";
+import NewPublication from "./pages/NewPublication";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
           <Route path="/nosotros" element={<AcercaDe />} />
           <Route path="/info" element={<InfoContacto />} />
           <Route path="/user" element={<Perfil />} />
+          <Route path="/newpublication" element={<NewPublication />} />
         </Routes>
       </main>
       <Footer></Footer>
