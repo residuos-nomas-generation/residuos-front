@@ -12,7 +12,7 @@ const InfoContacto = () => {
                 </div>
                 <form className='contact-form'>
                     <div className='container-contact-title'>
-                        <h3>¡Contáctanos!</h3>
+                        <h3>¡Escríbenos!</h3>
                         <p>Rellena el siguiente formulario con tus datos y escríbenos , prometemos contactarte lo antes posible.</p>
                     </div>
                     <div className='container-contact-inputs'>

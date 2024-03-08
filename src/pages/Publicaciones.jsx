@@ -91,6 +91,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import "../pages/styles/Publicaciones.css";
+import default1 from '../assets/default1.png';
 
 const Publicaciones = () => {
   // Estado para almacenar los datos obtenidos del backend
@@ -112,14 +113,25 @@ const Publicaciones = () => {
 
   return (
     <>
-      {/* Tu código para filtrar y ordenar aquí si es necesario */}
+      {/* Img de publicación Galera */}
+      <article className="filtro-container">
+        <h5 className="filtro-text">Filtro:</h5>
 
+        <select className="orden-selector" name="" id="">
+          <option value="">Precio Mayor - Menor</option>
+          <option value="">Precio Menor - Mayor</option>
+          <option value="">Cantidad Mayor - Menor</option>
+          <option value="">Cantaidad Menor - Mayor</option>
+        </select>
+        {/* <label htmlFor=""></label> */}
+        <input type="text" placeholder="Buscar publicación" />
+      </article>
       <section className="main-section">
         <article className="galeria-publicaciones">
           {publicaciones.map((publicacion) => (
             <div key={publicacion.idPublicacion} className="publicacion-container">
               <div className="img-container">
-                <img src={publicacion.imagen} alt="" />
+                <img src={default1} alt="" />
               </div>
               <div className="body-card-container">
                 <h5 className="title-card">{publicacion.titulo}</h5>

@@ -101,6 +101,9 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import "../pages/styles/perfil.css";
 import perfil from '../assets/perfil.png';
+import default1 from '../assets/default1.png';
+import { Link, NavLink } from 'react-router-dom';
+
 
 const Perfil = () => {
   // Estado para almacenar los datos obtenidos del backend
@@ -137,11 +140,12 @@ const Perfil = () => {
         </div>
       </section>
 
-      <section className="add-publicacion-perfil-container">
-        <div className="add-button-perfil-container">
-          {/* Tu código para añadir nuevas publicaciones aquí si es necesario */}
-        </div>
-      </section>
+        <section className="add-publicacion-perfil-container" >
+            <div className="add-button-perfil-container">
+            <NavLink to="/newpublication"><a><button className="add-button-perfil">+</button></a></NavLink>
+             </div>
+
+        </section>
 
       <section className="publication-perfil-section">
         <article className="galeria-publicaciones-perfil">
@@ -149,7 +153,7 @@ const Perfil = () => {
           {publicaciones.map((publicacion) => (
             <div key={publicacion.idPublicacion} className="publicacion-perfil-container">
               <div className="img-perfil-container">
-                <img className="img-perfil-publicacion" src={publicacion.imagen} alt="" />
+                <img className="img-perfil-publicacion" src={default1} alt="" />
               </div>
               <div className="text-perfil-container">
                 <h5 className="title-text-perfil">{publicacion.titulo}</h5>
@@ -165,7 +169,8 @@ const Perfil = () => {
                 </p>
               </div>
               <div className="icon-perfil-container">
-                {/* Tus iconos para editar o eliminar la publicación aquí */}
+                                               <a href="#"> <i className="uil uil-edit icon-perfil"></i></a>
+                               <a href="#"> <i className="uil uil-trash-alt icon-perfil"></i> </a>
               </div>
             </div>
           ))}
