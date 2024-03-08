@@ -1,0 +1,15 @@
+.new-container{
+    width: 50%;
+    margin: auto;
+    margin-top: 3rem;
+    color: #347571;
+    font-size: medium;
+    font-family: 'Open Sauce One', sans-serif;
+}
+
+.form-control,
+.form-select{
+    font-family: 'Open Sauce One', sans-serif;
+    font-size: small;
+    color: #347571;
+}
